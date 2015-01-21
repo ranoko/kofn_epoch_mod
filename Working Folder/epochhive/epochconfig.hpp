@@ -15,9 +15,9 @@ showEarthQuakes = true; // used to show locations of earthquakes
 showShippingContainers = true; // used to show locations of shipping containers
 
 // Antagonists
-antagonistChanceTrash = 0.03;
-antagonistChancePDeath = 0.25;
-antagonistChanceLoot = 0.03;
+antagonistChanceTrash = 0.03; //3% chance when player loot a trash object
+antagonistChancePDeath = 0.25; //25% chance when player was killed from a other player (selfkill doesn't count)
+antagonistChanceLoot = 0.03; //3% chance when player click "SEARCH" on a loot object
 
 // Player Related
 cloneCost = 100; // debt incurred on player death
